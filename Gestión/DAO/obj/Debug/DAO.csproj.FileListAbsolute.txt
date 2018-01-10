@@ -1,0 +1,10 @@
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\DAO.dll.config
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\DAO.dll
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\DAO.pdb
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\EntityFramework.dll
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\EntityFramework.SqlServer.dll
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\EntityFramework.xml
+F:\Proyectos .NET\sample\Gestión\DAO\bin\Debug\EntityFramework.SqlServer.xml
+F:\Proyectos .NET\sample\Gestión\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+F:\Proyectos .NET\sample\Gestión\DAO\obj\Debug\DAO.dll
+F:\Proyectos .NET\sample\Gestión\DAO\obj\Debug\DAO.pdb

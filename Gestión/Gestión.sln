@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{A663CAAC-82CB-4F91-B949-416D0EEAA414}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logica", "logica\logica.csproj", "{1FE9316B-1395-4553-9E9C-EC2ECBC49576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "presentacion", "presentacion\presentacion.csproj", "{97E25B5D-1730-4AE8-8B93-66984C5314D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A663CAAC-82CB-4F91-B949-416D0EEAA414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A663CAAC-82CB-4F91-B949-416D0EEAA414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A663CAAC-82CB-4F91-B949-416D0EEAA414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A663CAAC-82CB-4F91-B949-416D0EEAA414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE9316B-1395-4553-9E9C-EC2ECBC49576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE9316B-1395-4553-9E9C-EC2ECBC49576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE9316B-1395-4553-9E9C-EC2ECBC49576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE9316B-1395-4553-9E9C-EC2ECBC49576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E25B5D-1730-4AE8-8B93-66984C5314D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E25B5D-1730-4AE8-8B93-66984C5314D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E25B5D-1730-4AE8-8B93-66984C5314D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E25B5D-1730-4AE8-8B93-66984C5314D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D4C5F32-F0B7-4F82-A0ED-75630B220B50}
+	EndGlobalSection
+EndGlobal

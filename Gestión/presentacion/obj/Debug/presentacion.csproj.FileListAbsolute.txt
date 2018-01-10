@@ -1,0 +1,12 @@
+F:\Proyectos .NET\sample\Gestión\presentacion\bin\Debug\presentacion.exe.config
+F:\Proyectos .NET\sample\Gestión\presentacion\bin\Debug\presentacion.exe
+F:\Proyectos .NET\sample\Gestión\presentacion\bin\Debug\presentacion.pdb
+F:\Proyectos .NET\sample\Gestión\presentacion\bin\Debug\logica.dll
+F:\Proyectos .NET\sample\Gestión\presentacion\bin\Debug\logica.pdb
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.csprojResolveAssemblyReference.cache
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.Form1.resources
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.Properties.Resources.resources
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.csproj.GenerateResource.Cache
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.csproj.CoreCompileInputs.cache
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.exe
+F:\Proyectos .NET\sample\Gestión\presentacion\obj\Debug\presentacion.pdb

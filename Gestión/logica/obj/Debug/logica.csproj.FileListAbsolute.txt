@@ -1,0 +1,11 @@
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\logica.dll
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\logica.pdb
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\DAO.dll
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\EntityFramework.dll
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\DAO.pdb
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\DAO.dll.config
+F:\Proyectos .NET\sample\Gestión\logica\bin\Debug\EntityFramework.xml
+F:\Proyectos .NET\sample\Gestión\logica\obj\Debug\logica.csprojResolveAssemblyReference.cache
+F:\Proyectos .NET\sample\Gestión\logica\obj\Debug\logica.csproj.CoreCompileInputs.cache
+F:\Proyectos .NET\sample\Gestión\logica\obj\Debug\logica.dll
+F:\Proyectos .NET\sample\Gestión\logica\obj\Debug\logica.pdb
