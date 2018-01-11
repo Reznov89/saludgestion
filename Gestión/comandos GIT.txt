@@ -1,0 +1,9 @@
+git init                 -> inicia el pryecto, se hace una sola vez, al principio
+git add -A               -> agrega todos los cambios que se hicieron 
+git commit m "mensaje"   -> se agrega el commit o comentario
+git status               -> muestra lo archivos que se han modificado y no se han agregado
+git log                  -> muestra los commit que se han hecho
+git branch               -> Ver las ramas
+
+git remote add origin (direccion HTTPS)    -> vincula el repositorio remoto con el local
+git push origin master (rama)              -> sube los cambios al repositorio remoto
