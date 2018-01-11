@@ -1,4 +1,5 @@
 git init                 -> inicia el pryecto, se hace una sola vez, al principio
+git clone (HTTPS)        -> descarga el proyecto
 git add -A               -> agrega todos los cambios que se hicieron 
 git commit m "mensaje"   -> se agrega el commit o comentario
 git status               -> muestra lo archivos que se han modificado y no se han agregado
@@ -7,3 +8,5 @@ git branch               -> Ver las ramas
 
 git remote add origin (direccion HTTPS)    -> vincula el repositorio remoto con el local
 git push origin master (rama)              -> sube los cambios al repositorio remoto
+git fetch origin                           -> baja los cambios del repositorio remoto al local
+git merge origin/master                    -> combina los commit y crea uno nuevo
