@@ -13,10 +13,10 @@ namespace DAO
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class consultorioEntities : DbContext
+    public partial class Model1Container : DbContext
     {
-        public consultorioEntities()
-            : base("name=consultorioEntities")
+        public Model1Container()
+            : base("name=Model1Container")
         {
         }
     
@@ -25,8 +25,6 @@ namespace DAO
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<usuarioss> usuarioss { get; set; }
-        public virtual DbSet<medico> medicoSet { get; set; }
-        public virtual DbSet<Table_1> Table_1 { get; set; }
+        public virtual DbSet<usuarios> usuariosSet { get; set; }
     }
 }

@@ -12,10 +12,10 @@ namespace DAO
     using System;
     using System.Collections.Generic;
     
-    public partial class Table_1
+    public partial class usuarios
     {
-        public string blabla { get; set; }
-        public string bla { get; set; }
-        public string id { get; set; }
+        public int Id { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }

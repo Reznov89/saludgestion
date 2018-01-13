@@ -1,22 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
   <EntityContainerMapping StorageEntityContainer="consultorioModelStoreContainer" CdmEntityContainer="consultorioEntities">
-    <EntitySetMapping Name="usuarioss">
-      <EntityTypeMapping TypeName="IsTypeOf(consultorioModel.usuarioss)">
-        <MappingFragment StoreEntitySet="usuarioss">
+    <EntitySetMapping Name="usuarios">
+      <EntityTypeMapping TypeName="IsTypeOf(consultorioModel.usuarios)">
+        <MappingFragment StoreEntitySet="usuarios">
           <ScalarProperty Name="id" ColumnName="id" />
-          <ScalarProperty Name="usernamee" ColumnName="usernamee" />
-          <ScalarProperty Name="passwordd" ColumnName="passwordd" />
-        </MappingFragment>
-      </EntityTypeMapping>
-    </EntitySetMapping>
-    <EntitySetMapping Name="medicoSet">
-      <EntityTypeMapping TypeName="IsTypeOf(consultorioModel.medico)">
-        <MappingFragment StoreEntitySet="medicoSet">
-          <ScalarProperty Name="Id" ColumnName="Id" />
-          <ScalarProperty Name="especialidad" ColumnName="especialidad" />
-          <ScalarProperty Name="nombre" ColumnName="nombre" />
-          <ScalarProperty Name="apellido" ColumnName="apellido" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

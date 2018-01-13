@@ -2,13 +2,13 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 01/09/2018 22:46:47
--- Generated from EDMX file: F:\Proyectos .NET\sample\Gestión\DAO\consultorios.edmx
+-- Date Created: 01/12/2018 21:19:18
+-- Generated from EDMX file: F:\Proyectos .NET\sample\Gestión\DAO\Model1.edmx
 -- --------------------------------------------------
 
 SET QUOTED_IDENTIFIER OFF;
 GO
-USE [consultorio];
+USE [consultorios];
 GO
 IF SCHEMA_ID(N'dbo') IS NULL EXECUTE(N'CREATE SCHEMA [dbo]');
 GO
@@ -22,28 +22,16 @@ GO
 -- Dropping existing tables
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[usuarioss]', 'U') IS NOT NULL
-    DROP TABLE [dbo].[usuarioss];
-GO
 
 -- --------------------------------------------------
 -- Creating all tables
 -- --------------------------------------------------
 
--- Creating table 'usuarioss'
-CREATE TABLE [dbo].[usuarioss] (
-    [usernamee] varchar(50)  NOT NULL,
-    [passwordd] varchar(50)  NOT NULL,
-    [id] int  NOT NULL
-);
-GO
-
--- Creating table 'medicoSet'
-CREATE TABLE [dbo].[medicoSet] (
+-- Creating table 'usuariosSet'
+CREATE TABLE [dbo].[usuariosSet] (
     [Id] int IDENTITY(1,1) NOT NULL,
-    [especialidad] nvarchar(max)  NOT NULL,
-    [nombre] nvarchar(max)  NOT NULL,
-    [apellido] nvarchar(max)  NOT NULL
+    [username] nvarchar(max)  NOT NULL,
+    [password] nvarchar(max)  NOT NULL
 );
 GO
 
@@ -51,15 +39,9 @@ GO
 -- Creating all PRIMARY KEY constraints
 -- --------------------------------------------------
 
--- Creating primary key on [id] in table 'usuarioss'
-ALTER TABLE [dbo].[usuarioss]
-ADD CONSTRAINT [PK_usuarioss]
-    PRIMARY KEY CLUSTERED ([id] ASC);
-GO
-
--- Creating primary key on [Id] in table 'medicoSet'
-ALTER TABLE [dbo].[medicoSet]
-ADD CONSTRAINT [PK_medicoSet]
+-- Creating primary key on [Id] in table 'usuariosSet'
+ALTER TABLE [dbo].[usuariosSet]
+ADD CONSTRAINT [PK_usuariosSet]
     PRIMARY KEY CLUSTERED ([Id] ASC);
 GO
 
